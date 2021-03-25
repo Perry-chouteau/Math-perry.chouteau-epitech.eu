@@ -1,0 +1,8 @@
+*.o
+*.a
+*gc*
+*vscode
+10*
+data
+*.gnu
+tests

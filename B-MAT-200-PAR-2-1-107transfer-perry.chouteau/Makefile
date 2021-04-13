@@ -46,7 +46,7 @@ fclean: clean
 re: fclean all
 
 unit_tests:	fclean
-	make -C libmy/ 
+	make -C libmy/
 	gcc -o $(NAME_TEST) $(SRC) $(SRC_TEST) --coverage -lcriterion -lm -I libmy/includes/ -L libmy/ -lmy
 
 tests_run: unit_tests

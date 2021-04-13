@@ -1,0 +1,10 @@
+*.o
+*.a
+*gc*
+*vscode
+data
+*.gnu
+file
+*~
+.idea/
+108trigo

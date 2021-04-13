@@ -23,7 +23,6 @@ Test(No_arg, Err, .init = redirect_all_std)
     cr_assert_eq(my_error(ac, av), 84);
 }
 
-
 Test(Bad_nb_arg, Err, .init = redirect_all_std)
 {
     int ac = 8;

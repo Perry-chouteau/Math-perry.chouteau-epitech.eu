@@ -42,7 +42,6 @@ void cipher(int ac, char ** av)
     }
     if (av[3][0] == '1' && av[3][1] == '\0') {
         exit(84);
-        cphr = keep_code(ac, av[1]);
         cphr = mk_unkey(cphr);
         cphr = dt_code(cphr);
         write_unkey(cphr);
